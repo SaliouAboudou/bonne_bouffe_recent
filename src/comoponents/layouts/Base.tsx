@@ -28,7 +28,7 @@ export const Base = () => {
                     </p>
                     <button className=' hidden md:block bg-green-600 mx-auto px-4 py-2 rounded-md text-xl hover:opacity-75 duration-500 cursor-pointer'>En Savoir plus</button>
                     </div>
-                    <img className='pt-24 md:absolute md:blur -z-20 md:text-center md:mt-42 md:mx-auto' src={igAccroche} alt={igAccroche} />
+                    <img className='pt-42 md:absolute md:blur -z-20 md:text-center md:mt-42 md:mx-auto' src={igAccroche} alt={igAccroche} />
                     
                 </div>
                 <span className=" right-0 absolute blur-2xl bg-green-600 size-42 bottom-0 -z-20 rounded-full opacity-75"></span>

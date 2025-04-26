@@ -19,16 +19,16 @@ export const Base = () => {
                     </div>
                 </div>
                  {/* content!  */}
-                 <div className=' w-full py-2 relative flex flex-col'>
-                    <div className=' absolute text-center flex flex-col gap-4'>
+                 <div className=' w-full relative flex flex-col'>
+                    <div className=' absolute text-center flex flex-col'>
                         <span className=" absolute blur-2xl bg-green-600 size-24 rounded-full "></span>
                         <h1 className=' text-4xl font-extrabold text-center'>Bienvenue chez <span>Bonne <strong className=' text-green-600'>BOUFFE</strong></span>– La maison de la bonne bouffe !</h1>
-                        <p className=' text-gray-600'>Découvrez un monde de saveurs, de générosité et de plaisir. Ici, on célèbre la bonne bouffe : des plats savoureux, préparés avec soin, livrés avec amour.
-                            Que vous ayez envie d’un bon spaghetti, d’un plat riche en sauce ou d’une recette maison, vous êtes au bon endroit !
-                            </p>
+                       
                     </div>
-                    <img className='pt-38' src={igAccroche} alt={igAccroche} />
-                    
+                    <img className='' src={igAccroche} alt={igAccroche} />
+                    <p className=' text-gray-600 text-xs px-8 text-center'>Découvrez un monde de saveurs, de générosité et de plaisir. Ici, on célèbre la bonne bouffe : des plats savoureux, préparés avec soin, livrés avec amour.
+                            Que vous ayez envie d’un bon spaghetti, d’un plat riche en sauce ou d’une recette maison, vous êtes au bon endroit !
+                    </p>
                 </div>
                 <span className=" right-0 absolute blur-2xl bg-green-600 size-42 bottom-0 -z-20 rounded-full opacity-75"></span>
             </div>

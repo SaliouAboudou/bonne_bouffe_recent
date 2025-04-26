@@ -1,13 +1,18 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/public/assets/polices/Poppins/Poppins-Bold.ttf') format('poppins-Bold'),
-          url('/public/assets/polices/Poppins/Poppins-Light.ttf') format('poppins-Light'),
-          url('/public/assets/polices/Poppins/Poppins-ExtraLight.ttf') format('poppins-ExtraLight'),
-          url('/public/assets/polices/Poppins/Poppins-SemiBold.ttf') format('poppins-SemiBold'),
-          url('/public/assets/polices/Poppins/Poppins-ExtraBold.ttf') format('poppins-ExtraBold'),
+  font-family: 'Roboto';
+  src: url('/public/assets/Roboto/static/Roboto-Bold.ttf') format('Roboto-Bold'),
+          url('/public/assets/Roboto/static/Roboto-ExtraLight.ttf') format('Roboto-Light'),
+          url('/public/assets/Roboto/static/Roboto-ExtraLight.ttf') format('poppins-ExtraLight'),
+          url('/public/assets/Roboto/static/Roboto-SemiBold.ttf') format('poppins-SemiBold'),
+          url('/public/assets/Roboto/static/Roboto-ExtraBold.ttf') format('poppins-ExtraBold'),
 
+}
+
+/* Appliquer la police par défaut */
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Scrollbar style */

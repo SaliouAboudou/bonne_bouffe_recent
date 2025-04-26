@@ -25,7 +25,7 @@ export const Base = () => {
                         <h1 className=' text-4xl font-extrabold text-center'>Bienvenue chez <span>Bonne <strong className=' text-green-600'>BOUFFE</strong></span>– La maison de la bonne bouffe !</h1>
                        
                     </div>
-                    <img className='' src={igAccroche} alt={igAccroche} />
+                    <img className='pt-24' src={igAccroche} alt={igAccroche} />
                     <p className=' text-gray-600 text-xs px-8 text-center'>Découvrez un monde de saveurs, de générosité et de plaisir. Ici, on célèbre la bonne bouffe : des plats savoureux, préparés avec soin, livrés avec amour.
                             Que vous ayez envie d’un bon spaghetti, d’un plat riche en sauce ou d’une recette maison, vous êtes au bon endroit !
                     </p>

@@ -19,7 +19,7 @@ export const Base = () => {
                     </div>
                 </div>
                  {/* content!  */}
-                 <div className=' w-full py-2 relative flex flex-col  px-8 '>
+                 <div className=' w-full py-2 relative flex flex-col'>
                     <div className=' absolute text-center flex flex-col gap-4'>
                         <span className=" absolute blur-2xl bg-green-600 size-24 rounded-full "></span>
                         <h1 className=' text-4xl font-extrabold text-center'>Bienvenue chez <span>Bonne <strong className=' text-green-600'>BOUFFE</strong></span>– La maison de la bonne bouffe !</h1>
@@ -30,7 +30,7 @@ export const Base = () => {
                     <img className='pt-38' src={igAccroche} alt={igAccroche} />
                     
                 </div>
-                <span className=" right-0 absolute blur-2xl bg-green-600 size-42 bottom-0 -z-20 rounded-full "></span>
+                <span className=" right-0 absolute blur-2xl bg-green-600 size-42 bottom-0 -z-20 rounded-full opacity-75"></span>
             </div>
         </div>
     );

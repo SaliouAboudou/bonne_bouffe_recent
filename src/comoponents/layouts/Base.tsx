@@ -185,11 +185,11 @@ export const Base = () => {
                         </div>
                         <div className=' text-center w-full md:max-w-5xl flex flex-col gap-2.5'>
                             <h1 className=' text-green-600 font-bold'>Notre Histoire</h1>
-                            <p className=' text-justify text-md'>Nés de la passion pour la bonne cuisine, nous avons voulu offrir à chacun la possibilité de savourer des plats savoureux et authentiques, préparés avec amour et simplicité.</p>
-                            <p className=' text-justify text-md'>Tout a commencé avec une envie simple : partager la vraie bonne bouffe, celle qui réchauffe le cœur et rassemble autour de la table.
+                            <p className=' text-justify text-md text-gray-600'>Nés de la passion pour la bonne cuisine, nous avons voulu offrir à chacun la possibilité de savourer des plats savoureux et authentiques, préparés avec amour et simplicité.</p>
+                            <p className=' text-justify text-md text-gray-600'>Tout a commencé avec une envie simple : partager la vraie bonne bouffe, celle qui réchauffe le cœur et rassemble autour de la table.
                             Inspirés par les traditions italiennes, les repas familiaux et les recettes maison transmises de génération en génération, nous avons décidé de créer la <span>Bonne<strong className=' text-green-600'>BOUFFE</strong></span> : un endroit où qualité, générosité et plaisir se rencontrent.</p>
-                            <p className=' text-justify text-md'>Aujourd'hui, grâce à la livraison rapide et soignée, nous avons fait tomber les murs de la cuisine pour apporter directement chez vous un moment de bonheur, de partage et de gourmandise.</p>
-                            <p className=' text-justify text-md'>Notre promesse :
+                            <p className=' text-justify text-md text-gray-600'>Aujourd'hui, grâce à la livraison rapide et soignée, nous avons fait tomber les murs de la cuisine pour apporter directement chez vous un moment de bonheur, de partage et de gourmandise.</p>
+                            <p className=' text-justify text-md text-gray-600'>Notre promesse :
                             Vous faire sentir à chaque bouchée que la bonne bouffe peut être simple, vraie, et accessible à tous.</p>
 
                         </div>

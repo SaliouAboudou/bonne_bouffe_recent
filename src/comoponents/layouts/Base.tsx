@@ -54,31 +54,31 @@ export const Base = () => {
                 <section className='py-6 flex flex-col gap-3'>
                     <h1 className=' text-2xl text-center font-bold px-4  mx-auto py-2 bg-green-100 rounded-full'> <span className=''>🍴</span> Nos plats</h1>
                     <div className=' flex flex-wrap gap-1 md:gap-3 mx-auto'>
-                        <div className=' border border-gray-300 min-w-64 max-w-64 rounded-lg min-h-38 max-h-38  md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
+                        <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38  md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={ig2} alt={ig2} />
                             </div>
                             <h3 className=' mt-2 text-center text-sm'>Spaghettis traditionnels </h3>
                         </div>
-                        <div className=' border border-gray-300 rounded-lg min-h-38 max-h-38   min-w-52 max-w-52 flex flex-col gap-7 px-4'>
+                        <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38   md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={igAccroche} alt={igAccroche} />
                             </div>
                             <h3 className=' mt-2 text-center text-sm'>Pâtes gourmandes </h3>
                         </div>
-                        <div className=' border border-gray-300 rounded-lg min-h-38 max-h-38 md:text-2xl  min-w-52 max-w-52 flex flex-col gap-7'>
+                        <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38 md:text-2xl  md:min-w-52 md:max-w-52 flex flex-col gap-7'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={ig16} alt={ig16} />
                             </div>
                             <h3 className=' mt-2 text-center text-sm'>Plats mijotés maison </h3>
                         </div>
-                        <div className=' border border-gray-300 rounded-lg min-h-38 max-h-38 md:text-2xl  min-w-52 max-w-52 flex flex-col gap-7 px-4'>
+                        <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38 md:text-2xl  md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={ig14} alt={ig14} />
                             </div>
                             <h3 className=' mt-2 text-center text-sm'>Salades fraîcheur  </h3>
                         </div>
-                        <div className=' border border-gray-300 rounded-lg min-h-38 max-h-38 md:text-2xl  min-w-52 max-w-52 flex flex-col gap-7 px-4'>
+                        <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38 md:text-2xl  md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={igAccroche} alt={igAccroche} />
                             </div>

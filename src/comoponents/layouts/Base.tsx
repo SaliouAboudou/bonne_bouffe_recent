@@ -1,11 +1,18 @@
 
 import ig1 from '../../assets/images/ig1.webp'
 import ig5 from '../../assets/images/ig5.webp'
-import ig4 from '../../assets/images/ig4.webp'
-import ig15 from '../../assets/images/ig15.webp'
+import ig7 from '../../assets/images/ig7.webp'
+import ig6 from '../../assets/images/ig6.webp'
+import Desfruitsdemerfrais from '../../assets/images/Desfruitsdemerfrais.webp'
+import basilicfrais from '../../assets/images/basilicfrais.webp'
+import parmesanaffiné from '../../assets/images/parmesanaffiné.webp'
+import tomate from '../../assets/images/tomate.webp'
+import viandeslocales from '../../assets/images/viandeslocales.webp'
+import ig14 from '../../assets/images/ig14.webp'
 import ig16 from '../../assets/images/ig16.webp'
 import ig2 from '../../assets/images/ig2.webp'
 import igAccroche from '../../assets/images/igAccroche.png'
+import chefcusinier from '../../assets/images/chefcusinier.webp'
 export const Base = () => {
     return (
         <div className=" w-full">
@@ -18,7 +25,8 @@ export const Base = () => {
                     {/* Div logo */}
                     <div className=" flex flex-col md:px-24">
                         <h1 className=" text-2xl md:text-4xl font-bold">Bonne<span className="text-green-600 font-extrabold">BOUFFE</span></h1>
-                        <p className=" text-xs text-green-700">Le goût du vrai spaghetti.</p>
+                        {/* slogan  */}
+                        <p className=" text-xs text-green-700">L'art de la bonne bouffe.</p>
                         {/* <span className=" blur-2xl bg-green-200 size-24 rounded-full - "></span> */}
                     </div>
                 </div>
@@ -37,43 +45,111 @@ export const Base = () => {
                 </div>
                 <span className=" right-0 absolute blur-2xl bg-green-600 size-42 bottom-0 -z-20 rounded-full opacity-75"></span>
             </div>
-            <div className='px-8 md:px-24 py-2'>
+            {/* Zone content nos plats and nos ingredients  */}
+            <div className='px-8 md:px-24 py-2 relative'>
+                <img className=' absolute -z-20 w-24' src={ig6} alt={ig6} />
+                <img className=' absolute -z-20 w-24 scale-x-[-1]' src={ig6} alt={ig6} />
+                <img className=' absolute -z-20  w-24 right-0 -bottom-24' src={ig7} alt={ig7} />
                 {/* Nos Plats  */}
                 <section className='py-6 flex flex-col gap-3'>
                     <h1 className=' text-2xl text-center font-bold'> <span className=''>🍴</span> Nos plats</h1>
-                    <div className=' flex flex-wrap gap-2 mx-auto'>
-                        <div className=' border border-gray-300 rounded-lg min-h-52 max-h-52  min-w-52 max-w-52 flex flex-col gap-7 px-4'>
+                    <div className=' flex flex-wrap gap-1 md:gap-3 mx-auto'>
+                        <div className=' border border-gray-300 rounded-lg min-h-38 max-h-38  min-w-52 max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={ig2} alt={ig2} />
                             </div>
-                            <h3 className=' mt-2 text-center text-2xl'>Spaghettis traditionnels </h3>
+                            <h3 className=' mt-2 text-center text-sm'>Spaghettis traditionnels </h3>
                         </div>
-                        <div className=' border border-gray-300 rounded-lg min-h-52 max-h-52  min-w-52 max-w-52 flex flex-col gap-7 px-4'>
+                        <div className=' border border-gray-300 rounded-lg min-h-38 max-h-38   min-w-52 max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={igAccroche} alt={igAccroche} />
                             </div>
-                            <h3 className=' mt-2 text-center text-2xl'>Pâtes gourmandes </h3>
+                            <h3 className=' mt-2 text-center text-sm'>Pâtes gourmandes </h3>
                         </div>
-                        <div className=' border border-gray-300 rounded-lg min-h-52 max-h-52  min-w-52 max-w-52 flex flex-col gap-7'>
+                        <div className=' border border-gray-300 rounded-lg min-h-38 max-h-38 md:text-2xl  min-w-52 max-w-52 flex flex-col gap-7'>
+                            <div className=' size-32 h-18 mx-auto'>
+                                <img className='object-contain mx-auto ' src={ig16} alt={ig16} />
+                            </div>
+                            <h3 className=' mt-2 text-center text-sm'>Plats mijotés maison </h3>
+                        </div>
+                        <div className=' border border-gray-300 rounded-lg min-h-38 max-h-38 md:text-2xl  min-w-52 max-w-52 flex flex-col gap-7 px-4'>
+                            <div className=' size-32 h-18 mx-auto'>
+                                <img className='object-contain mx-auto ' src={ig14} alt={ig14} />
+                            </div>
+                            <h3 className=' mt-2 text-center text-sm'>Salades fraîcheur  </h3>
+                        </div>
+                        <div className=' border border-gray-300 rounded-lg min-h-38 max-h-38 md:text-2xl  min-w-52 max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={igAccroche} alt={igAccroche} />
                             </div>
-                            <h3 className=' mt-2 text-center text-2xl'>Plats mijotés maison </h3>
-                        </div>
-                        <div className=' border border-gray-300 rounded-lg min-h-52 max-h-52  min-w-52 max-w-52 flex flex-col gap-7 px-4'>
-                            <div className=' size-32 h-18 mx-auto'>
-                                <img className='object-contain mx-auto ' src={igAccroche} alt={igAccroche} />
-                            </div>
-                            <h3 className=' mt-2 text-center text-2xl'>Salades fraîcheur  </h3>
-                        </div>
-                        <div className=' border border-gray-300 rounded-lg min-h-52 max-h-52  min-w-52 max-w-52 flex flex-col gap-7 px-4'>
-                            <div className=' size-32 h-18 mx-auto'>
-                                <img className='object-contain mx-auto ' src={igAccroche} alt={igAccroche} />
-                            </div>
-                            <h3 className=' mt-2 text-center text-2xl'>Desserts faits maison  </h3>
+                            <h3 className=' mt-2 text-center text-sm'>Desserts faits maison  </h3>
                         </div>
                       
                         
+
+                    </div>
+                </section>
+
+                {/* Nos Ingredient  */}
+
+                <section className='py-6  flex flex-col  gap-3  rounded-lg md:bg-gray-50'>
+                    <h1 className=' text-2xl text-center font-bold'> <span className=''>🧂</span> Nos Ingrédients</h1>
+                    <div className=' flex flex-wrap gap-1 md:gap-3 mx-auto'>
+                        <div className=' min-h-52 max-h-52  min-w-52 max-w-52  bg-green-50 h-18 rounded-full md:min-h-52 md:max-h-52  md:min-w-52 md:max-w-52 flex flex-col gap-3 px-4 py-4'>
+                            <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
+                                <img className='object-contain mx-auto ' src={tomate} alt={tomate} />
+                            </div>
+                            <h3 className='  text-center text-sm'>Des tomates italiennes mûries au soleil </h3>
+                        </div>
+                        <div className='  bg-green-50 h-18 rounded-full min-h-52 max-h-52  min-w-52 max-w-52 flex flex-col gap-3 px-4 py-4'>
+                            <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
+                                <img className='object-contain mx-auto ' src={basilicfrais} alt={basilicfrais} />
+                            </div>
+                            <h3 className='  text-center text-sm'>Du basilic frais </h3>
+                        </div>
+                        <div className='  bg-green-50 h-18 rounded-full min-h-52 max-h-52  min-w-52 max-w-52 flex flex-col gap-3 px-4 py-4'>
+                            <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
+                                <img className='object-contain mx-auto ' src={parmesanaffiné} alt={parmesanaffiné} />
+                            </div>
+                            <h3 className='  text-center text-sm'>Du parmesan affiné </h3>
+                        </div>
+                        <div className='  bg-green-50 h-18 rounded-full min-h-52 max-h-52  min-w-52 max-w-52 flex flex-col gap-3 px-4 py-4'>
+                            <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
+                                <img className='object-contain mx-auto ' src={viandeslocales} alt={viandeslocales} />
+                            </div>
+                            <h3 className='  text-center text-sm'>Des viandes locales sélectionnées </h3>
+                        </div>
+                        <div className='  bg-green-50 h-18 rounded-full min-h-52 max-h-52  min-w-52 max-w-52 flex flex-col gap-3 px-4 py-4'>
+                            <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
+                                <img className='object-contain mx-auto ' src={Desfruitsdemerfrais} alt={Desfruitsdemerfrais} />
+                            </div>
+                            <h3 className='  text-center text-sm'>Des fruits de mer frais </h3>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+            {/* zone a propos de nous  */}
+            <div className='px-8 md:px-24 py-2 relative '>
+                {/* A Propos  */}
+                <section className='py-6 flex flex-col gap-3'>
+                    <h1 className=' text-2xl text-center font-bold'> <span className=''>👨‍🍳</span> À propos de nouss</h1>
+                    <div className=' flex flex-wrap w-full justify-center mx-auto gap-3 md:gap-3 '>
+                        <div className=' md:absolute md:opacity-45 '>
+                            <img className=' w-42  text-center' src={chefcusinier} alt={chefcusinier} />
+                        </div>
+                        <div className=' text-center w-full md:max-w-5xl flex flex-col gap-2.5'>
+                            <h1 className=' text-green-600 font-bold'>Notre Histoire</h1>
+                            <p className=' text-justify'>Nés de la passion pour la bonne cuisine, nous avons voulu offrir à chacun la possibilité de savourer des plats savoureux et authentiques, préparés avec amour et simplicité.</p>
+                            <p className=' text-justify'>Tout a commencé avec une envie simple : partager la vraie bonne bouffe, celle qui réchauffe le cœur et rassemble autour de la table.
+                            Inspirés par les traditions italiennes, les repas familiaux et les recettes maison transmises de génération en génération, nous avons décidé de créer la <span>Bonne<strong className=' text-green-600'>BOUFFE</strong></span> : un endroit où qualité, générosité et plaisir se rencontrent.</p>
+                            <p className=' text-justify'>Aujourd'hui, grâce à la livraison rapide et soignée, nous avons fait tomber les murs de la cuisine pour apporter directement chez vous un moment de bonheur, de partage et de gourmandise.</p>
+                            <p className=' text-justify'>Notre promesse :
+                            Vous faire sentir à chaque bouchée que la bonne bouffe peut être simple, vraie, et accessible à tous.</p>
+
+                        </div>
+
 
                     </div>
                 </section>

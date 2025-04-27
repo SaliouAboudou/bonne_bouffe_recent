@@ -54,7 +54,7 @@ export const Base = () => {
                 <section className='py-6 flex flex-col gap-3'>
                     <h1 className=' text-2xl text-center font-bold px-4  mx-auto py-2 bg-green-100 rounded-full'> <span className=''>🍴</span> Nos plats</h1>
                     <div className=' flex flex-wrap gap-1 md:gap-3 mx-auto'>
-                        <div className=' border border-gray-300 rounded-lg min-h-38 max-h-38  min-w-52 max-w-52 flex flex-col gap-7 px-4'>
+                        <div className=' border border-gray-300 min-w-64 max-w-64 rounded-lg min-h-38 max-h-38  md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={ig2} alt={ig2} />
                             </div>

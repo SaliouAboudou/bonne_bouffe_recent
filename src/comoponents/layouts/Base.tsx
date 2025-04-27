@@ -51,9 +51,9 @@ export const Base = () => {
                 <img className=' absolute -z-20 w-24 scale-x-[-1]' src={ig6} alt={ig6} />
                 <img className=' absolute -z-20  w-24 right-0 -bottom-24' src={ig7} alt={ig7} />
                 {/* Nos Plats  */}
-                <section className='py-6 flex flex-col gap-3 mx-auto'>
+                <section className='py-6 flex flex-col w-full gap-3 '>
                     <h1 className=' text-2xl text-center font-bold px-4  mx-auto py-2 bg-green-100 rounded-full'> <span className=''>🍴</span> Nos plats</h1>
-                    <div className=' flex flex-wrap gap-1 md:gap-3 mx-auto'>
+                    <div className=' w-full flex flex-wrap justify-center gap-1 md:gap-3 mx-auto'>
                         <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38  md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={ig2} alt={ig2} />
@@ -66,26 +66,24 @@ export const Base = () => {
                             </div>
                             <h3 className=' mt-2 text-center text-md'>Pâtes gourmandes </h3>
                         </div>
-                        <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38 md:text-2xl  md:min-w-52 md:max-w-52 flex flex-col gap-7'>
+                        <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38  md:min-w-52 md:max-w-52 flex flex-col gap-7'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={ig16} alt={ig16} />
                             </div>
                             <h3 className=' mt-2 text-center text-md'>Plats mijotés maison </h3>
                         </div>
-                        <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38 md:text-2xl  md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
+                        <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38  md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={ig14} alt={ig14} />
                             </div>
                             <h3 className=' mt-2 text-center text-md'>Salades fraîcheur  </h3>
                         </div>
-                        <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38 md:text-2xl  md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
+                        <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38   md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={igAccroche} alt={igAccroche} />
                             </div>
                             <h3 className=' mt-2 text-center text-md'>Desserts faits maison  </h3>
                         </div>
-                      
-                        
 
                     </div>
                 </section>
@@ -94,32 +92,32 @@ export const Base = () => {
 
                 <section className='py-6  flex flex-col  gap-3  rounded-lg md:bg-gray-50'>
                     <h1 className=' text-2xl text-center font-bold px-4  mx-auto py-2 bg-green-100 rounded-full'> <span className=''>🧂</span> Nos Ingrédients</h1>
-                    <div className=' flex flex-wrap gap-1 md:gap-3 mx-auto'>
+                    <div className=' w-full flex flex-wrap justify-center gap-1 md:gap-3 mx-auto'>
                         <div className=' min-h-72 max-h-72  min-w-72 max-w-72  bg-green-50 h-18 rounded-full md:min-h-52 md:max-h-52  md:min-w-52 md:max-w-52 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={tomate} alt={tomate} />
                             </div>
                             <h3 className='  text-center text-md'>Des tomates italiennes mûries au soleil </h3>
                         </div>
-                        <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 flex flex-col gap-3 px-4 py-4'>
+                        <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 md:min-h-52 md:max-h-52  md:min-w-52 md:max-w-52 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={basilicfrais} alt={basilicfrais} />
                             </div>
                             <h3 className='  text-center text-md'>Du basilic frais </h3>
                         </div>
-                        <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 flex flex-col gap-3 px-4 py-4'>
+                        <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 md:min-h-52 md:max-h-52  md:min-w-52 md:max-w-52  flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={parmesanaffiné} alt={parmesanaffiné} />
                             </div>
                             <h3 className='  text-center text-md'>Du parmesan affiné </h3>
                         </div>
-                        <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 flex flex-col gap-3 px-4 py-4'>
+                        <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 md:min-h-52 md:max-h-52  md:min-w-52 md:max-w-52 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={viandeslocales} alt={viandeslocales} />
                             </div>
                             <h3 className='  text-center text-md'>Des viandes locales sélectionnées </h3>
                         </div>
-                        <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 flex flex-col gap-3 px-4 py-4'>
+                        <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 md:min-h-52 md:max-h-52  md:min-w-52 md:max-w-52 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={Desfruitsdemerfrais} alt={Desfruitsdemerfrais} />
                             </div>

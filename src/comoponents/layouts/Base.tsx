@@ -141,7 +141,7 @@ export const Base = () => {
                 <section className='py-6  flex flex-col  gap-3  rounded-lg'>
                     <h1 className=' text-2xl text-center font-bold px-4  mx-auto py-2 bg-green-100 rounded-full'> <span className=''>🛒</span> Commander</h1>
                        <p className=' text-center text-sm text-gray-600'>Envie de bonne bouffe ? Commandez en quelques clics !</p>
-                    <div className=' flex  md:flex-row  md:justify-between md:flex w-full gap-1 md:gap-3 mx-auto'>
+                    <div className=' flex flex-wrap md:grid md:grid-cols-3 md:justify-between w-full gap-1 md:gap-3 mx-auto'>
                      
                         <div className=' bg-gray-50  min-h-32 max-h-52   rounded-lg w-full  md:min-h32 md:max-h-32 flex  justify-center gap-3 px-4 py-4 relative '>
                             
@@ -197,7 +197,7 @@ export const Base = () => {
                 </section>
             </div>
 
-            
+
         </div>
     );
 }

@@ -58,31 +58,31 @@ export const Base = () => {
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={ig2} alt={ig2} />
                             </div>
-                            <h3 className=' mt-2 text-center text-sm'>Spaghettis traditionnels </h3>
+                            <h3 className=' mt-2 text-center text-md'>Spaghettis traditionnels </h3>
                         </div>
                         <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38   md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={igAccroche} alt={igAccroche} />
                             </div>
-                            <h3 className=' mt-2 text-center text-sm'>Pâtes gourmandes </h3>
+                            <h3 className=' mt-2 text-center text-md'>Pâtes gourmandes </h3>
                         </div>
                         <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38 md:text-2xl  md:min-w-52 md:max-w-52 flex flex-col gap-7'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={ig16} alt={ig16} />
                             </div>
-                            <h3 className=' mt-2 text-center text-sm'>Plats mijotés maison </h3>
+                            <h3 className=' mt-2 text-center text-md'>Plats mijotés maison </h3>
                         </div>
                         <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38 md:text-2xl  md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={ig14} alt={ig14} />
                             </div>
-                            <h3 className=' mt-2 text-center text-sm'>Salades fraîcheur  </h3>
+                            <h3 className=' mt-2 text-center text-md'>Salades fraîcheur  </h3>
                         </div>
                         <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38 md:text-2xl  md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
                                 <img className='object-contain mx-auto ' src={igAccroche} alt={igAccroche} />
                             </div>
-                            <h3 className=' mt-2 text-center text-sm'>Desserts faits maison  </h3>
+                            <h3 className=' mt-2 text-center text-md'>Desserts faits maison  </h3>
                         </div>
                       
                         
@@ -99,31 +99,31 @@ export const Base = () => {
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={tomate} alt={tomate} />
                             </div>
-                            <h3 className='  text-center text-sm'>Des tomates italiennes mûries au soleil </h3>
+                            <h3 className='  text-center text-md'>Des tomates italiennes mûries au soleil </h3>
                         </div>
                         <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={basilicfrais} alt={basilicfrais} />
                             </div>
-                            <h3 className='  text-center text-sm'>Du basilic frais </h3>
+                            <h3 className='  text-center text-md'>Du basilic frais </h3>
                         </div>
                         <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={parmesanaffiné} alt={parmesanaffiné} />
                             </div>
-                            <h3 className='  text-center text-sm'>Du parmesan affiné </h3>
+                            <h3 className='  text-center text-md'>Du parmesan affiné </h3>
                         </div>
                         <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={viandeslocales} alt={viandeslocales} />
                             </div>
-                            <h3 className='  text-center text-sm'>Des viandes locales sélectionnées </h3>
+                            <h3 className='  text-center text-md'>Des viandes locales sélectionnées </h3>
                         </div>
                         <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={Desfruitsdemerfrais} alt={Desfruitsdemerfrais} />
                             </div>
-                            <h3 className='  text-center text-sm'>Des fruits de mer frais </h3>
+                            <h3 className='  text-center text-md'>Des fruits de mer frais </h3>
                         </div>
 
                     </div>
@@ -140,14 +140,14 @@ export const Base = () => {
                 {/* Commander  */}
                 <section className='py-6  flex flex-col  gap-3  rounded-lg'>
                     <h1 className=' text-2xl text-center font-bold px-4  mx-auto py-2 bg-green-100 rounded-full'> <span className=''>🛒</span> Commander</h1>
-                       <p className=' text-center text-sm text-gray-600'>Envie de bonne bouffe ? Commandez en quelques clics !</p>
+                       <p className=' text-center text-md text-gray-600'>Envie de bonne bouffe ? Commandez en quelques clics !</p>
                     <div className=' flex flex-wrap md:grid md:grid-cols-3 md:justify-between w-full gap-1 md:gap-3 mx-auto'>
                      
                         <div className=' bg-gray-50  min-h-32 max-h-52   rounded-lg w-full  md:min-h32 md:max-h-32 flex  justify-center gap-3 px-4 py-4 relative '>
                             
                             <div className=' flex flex-col '>
                                 <span className=' text-center mx-auto bg-white size-12 rounded-full flex justify-center items-center font-bold text-green-300 border'>01</span>
-                                <h1 className='  text-gray-600 text-sm'>Parcourez notre menu gourmand</h1>
+                                <h1 className='  text-gray-600 text-md'>Parcourez notre menu gourmand</h1>
                             </div>
                         </div>
                         
@@ -155,7 +155,7 @@ export const Base = () => {
                             
                             <div className=' flex flex-col '>
                                 <span className=' text-center mx-auto bg-white size-12 rounded-full flex justify-center items-center font-bold text-green-300 border '>02</span>
-                                <h1 className='  text-gray-600 text-sm'>Ajoutez vos plats préférés à votre panier</h1>
+                                <h1 className='  text-gray-600 text-md'>Ajoutez vos plats préférés à votre panier</h1>
                             </div>
                         </div>
                         
@@ -163,12 +163,12 @@ export const Base = () => {
                             
                             <div className=' flex flex-col '>
                                 <span className=' text-center mx-auto bg-white size-12 rounded-full flex justify-center items-center font-bold text-green-300 border'>03</span>
-                                <h1 className='  text-gray-600 text-sm'>Finalisez votre commande et détendez-vous</h1>
+                                <h1 className='  text-gray-600 text-md'>Finalisez votre commande et détendez-vous</h1>
                             </div>
                         </div>
                         
                     </div>
-                    <p className=' text-center text-sm text-gray-600'>Nous préparons, nous livrons, vous régalez !
+                    <p className=' text-center text-md text-gray-600'>Nous préparons, nous livrons, vous régalez !
                     📞 Commandes express au +229 0 151 931 010</p>
 
                 </section>
@@ -185,11 +185,11 @@ export const Base = () => {
                         </div>
                         <div className=' text-center w-full md:max-w-5xl flex flex-col gap-2.5'>
                             <h1 className=' text-green-600 font-bold'>Notre Histoire</h1>
-                            <p className=' text-justify text-sm'>Nés de la passion pour la bonne cuisine, nous avons voulu offrir à chacun la possibilité de savourer des plats savoureux et authentiques, préparés avec amour et simplicité.</p>
-                            <p className=' text-justify text-sm'>Tout a commencé avec une envie simple : partager la vraie bonne bouffe, celle qui réchauffe le cœur et rassemble autour de la table.
+                            <p className=' text-justify text-md'>Nés de la passion pour la bonne cuisine, nous avons voulu offrir à chacun la possibilité de savourer des plats savoureux et authentiques, préparés avec amour et simplicité.</p>
+                            <p className=' text-justify text-md'>Tout a commencé avec une envie simple : partager la vraie bonne bouffe, celle qui réchauffe le cœur et rassemble autour de la table.
                             Inspirés par les traditions italiennes, les repas familiaux et les recettes maison transmises de génération en génération, nous avons décidé de créer la <span>Bonne<strong className=' text-green-600'>BOUFFE</strong></span> : un endroit où qualité, générosité et plaisir se rencontrent.</p>
-                            <p className=' text-justify text-sm'>Aujourd'hui, grâce à la livraison rapide et soignée, nous avons fait tomber les murs de la cuisine pour apporter directement chez vous un moment de bonheur, de partage et de gourmandise.</p>
-                            <p className=' text-justify text-sm'>Notre promesse :
+                            <p className=' text-justify text-md'>Aujourd'hui, grâce à la livraison rapide et soignée, nous avons fait tomber les murs de la cuisine pour apporter directement chez vous un moment de bonheur, de partage et de gourmandise.</p>
+                            <p className=' text-justify text-md'>Notre promesse :
                             Vous faire sentir à chaque bouchée que la bonne bouffe peut être simple, vraie, et accessible à tous.</p>
 
                         </div>

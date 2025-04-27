@@ -101,25 +101,25 @@ export const Base = () => {
                             </div>
                             <h3 className='  text-center text-sm'>Des tomates italiennes mûries au soleil </h3>
                         </div>
-                        <div className='  bg-green-50 h-18 rounded-full min-h-52 max-h-52  min-w-52 max-w-52 flex flex-col gap-3 px-4 py-4'>
+                        <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={basilicfrais} alt={basilicfrais} />
                             </div>
                             <h3 className='  text-center text-sm'>Du basilic frais </h3>
                         </div>
-                        <div className='  bg-green-50 h-18 rounded-full min-h-52 max-h-52  min-w-52 max-w-52 flex flex-col gap-3 px-4 py-4'>
+                        <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={parmesanaffiné} alt={parmesanaffiné} />
                             </div>
                             <h3 className='  text-center text-sm'>Du parmesan affiné </h3>
                         </div>
-                        <div className='  bg-green-50 h-18 rounded-full min-h-52 max-h-52  min-w-52 max-w-52 flex flex-col gap-3 px-4 py-4'>
+                        <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={viandeslocales} alt={viandeslocales} />
                             </div>
                             <h3 className='  text-center text-sm'>Des viandes locales sélectionnées </h3>
                         </div>
-                        <div className='  bg-green-50 h-18 rounded-full min-h-52 max-h-52  min-w-52 max-w-52 flex flex-col gap-3 px-4 py-4'>
+                        <div className='  bg-green-50 h-18 rounded-full min-h-72 max-h-72  min-w-72 max-w-72 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={Desfruitsdemerfrais} alt={Desfruitsdemerfrais} />
                             </div>

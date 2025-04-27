@@ -51,7 +51,7 @@ export const Base = () => {
                 <img className=' absolute -z-20 w-24 scale-x-[-1]' src={ig6} alt={ig6} />
                 <img className=' absolute -z-20  w-24 right-0 -bottom-24' src={ig7} alt={ig7} />
                 {/* Nos Plats  */}
-                <section className='py-6 flex flex-col gap-3'>
+                <section className='py-6 flex flex-col gap-3 mx-auto'>
                     <h1 className=' text-2xl text-center font-bold px-4  mx-auto py-2 bg-green-100 rounded-full'> <span className=''>🍴</span> Nos plats</h1>
                     <div className=' flex flex-wrap gap-1 md:gap-3 mx-auto'>
                         <div className=' border border-gray-300 min-w-72 max-w-72 rounded-lg min-h-38 max-h-38  md:min-w-52 md:max-w-52 flex flex-col gap-7 px-4'>

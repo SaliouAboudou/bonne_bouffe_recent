@@ -35,7 +35,7 @@ export const Base = () => {
                         <span className=" absolute blur-2xl bg-green-600 size-24 rounded-full "></span>
                     <div className=' absolute md:relative md:w-full md:max-w-4xl md:flex md:justify-center md:mx-auto text-center flex flex-col md:gap-4'>
                         <h1 className=' text-4xl md:text-6xl font-extrabold text-center '>Bienvenue chez <span>Bonne <strong className=' text-green-600'>BOUFFE</strong></span>– La maison de la bonne bouffe !</h1>
-                        <p className=' text-gray-600 text-xs md:text-white md:text-xl px-8 text-center'>Découvrez un monde de saveurs, de générosité et de plaisir. Ici, on célèbre la bonne bouffe : des plats savoureux, préparés avec soin, livrés avec amour.
+                        <p className=' text-gray-600 text-xs md:text-white md:text-xl px-8 text-cente text-justify'>Découvrez un monde de saveurs, de générosité et de plaisir. Ici, on célèbre la bonne bouffe : des plats savoureux, préparés avec soin, livrés avec amour.
                             Que vous ayez envie d’un bon spaghetti, d’un plat riche en sauce ou d’une recette maison, vous êtes au bon endroit !
                     </p>
                     <button className=' hidden md:block bg-green-600 mx-auto px-4 py-2 rounded-md text-xl hover:opacity-75 duration-500 cursor-pointer'>En Savoir plus</button>
@@ -52,7 +52,7 @@ export const Base = () => {
                 <img className=' absolute -z-20  w-24 right-0 -bottom-24' src={ig7} alt={ig7} />
                 {/* Nos Plats  */}
                 <section className='py-6 flex flex-col gap-3'>
-                    <h1 className=' text-2xl text-center font-bold'> <span className=''>🍴</span> Nos plats</h1>
+                    <h1 className=' text-2xl text-center font-bold px-4  mx-auto py-2 bg-green-100 rounded-full'> <span className=''>🍴</span> Nos plats</h1>
                     <div className=' flex flex-wrap gap-1 md:gap-3 mx-auto'>
                         <div className=' border border-gray-300 rounded-lg min-h-38 max-h-38  min-w-52 max-w-52 flex flex-col gap-7 px-4'>
                             <div className=' size-32 h-18 mx-auto'>
@@ -93,7 +93,7 @@ export const Base = () => {
                 {/* Nos Ingredient  */}
 
                 <section className='py-6  flex flex-col  gap-3  rounded-lg md:bg-gray-50'>
-                    <h1 className=' text-2xl text-center font-bold'> <span className=''>🧂</span> Nos Ingrédients</h1>
+                    <h1 className=' text-2xl text-center font-bold px-4  mx-auto py-2 bg-green-100 rounded-full'> <span className=''>🧂</span> Nos Ingrédients</h1>
                     <div className=' flex flex-wrap gap-1 md:gap-3 mx-auto'>
                         <div className=' min-h-52 max-h-52  min-w-52 max-w-52  bg-green-50 h-18 rounded-full md:min-h-52 md:max-h-52  md:min-w-52 md:max-w-52 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
@@ -130,30 +130,74 @@ export const Base = () => {
                 </section>
             </div>
 
+            {/* Zone content nos plats and nos ingredients  */}
+            <div className='px-8 md:px-24 py-2 relative'>
+                <img className=' absolute -z-20 w-24' src={ig6} alt={ig6} />
+                <img className=' absolute -z-20 w-24 scale-x-[-1]' src={ig6} alt={ig6} />
+                <img className=' absolute -z-20  w-24 right-0 -bottom-24' src={ig7} alt={ig7} />
+             
+
+                {/* Commander  */}
+                <section className='py-6  flex flex-col  gap-3  rounded-lg'>
+                    <h1 className=' text-2xl text-center font-bold px-4  mx-auto py-2 bg-green-100 rounded-full'> <span className=''>🛒</span> Commander</h1>
+                       <p className=' text-center text-sm text-gray-600'>Envie de bonne bouffe ? Commandez en quelques clics !</p>
+                    <div className=' flex  md:flex-row  md:justify-between md:flex w-full gap-1 md:gap-3 mx-auto'>
+                     
+                        <div className=' bg-gray-50  min-h-32 max-h-52   rounded-lg w-full  md:min-h32 md:max-h-32 flex  justify-center gap-3 px-4 py-4 relative '>
+                            
+                            <div className=' flex flex-col '>
+                                <span className=' text-center mx-auto bg-white size-12 rounded-full flex justify-center items-center font-bold text-green-300 border'>01</span>
+                                <h1 className='  text-gray-600 text-sm'>Parcourez notre menu gourmand</h1>
+                            </div>
+                        </div>
+                        
+                        <div className=' bg-gray-50  min-h-32 max-h-52   rounded-lg w-full  md:min-h32 md:max-h-32 flex  justify-center gap-3 px-4 py-4 relative '>
+                            
+                            <div className=' flex flex-col '>
+                                <span className=' text-center mx-auto bg-white size-12 rounded-full flex justify-center items-center font-bold text-green-300 border '>02</span>
+                                <h1 className='  text-gray-600 text-sm'>Ajoutez vos plats préférés à votre panier</h1>
+                            </div>
+                        </div>
+                        
+                        <div className=' bg-gray-50  min-h-32 max-h-52   rounded-lg w-full  md:min-h32 md:max-h-32 flex  justify-center gap-3 px-4 py-4 relative '>
+                            
+                            <div className=' flex flex-col '>
+                                <span className=' text-center mx-auto bg-white size-12 rounded-full flex justify-center items-center font-bold text-green-300 border'>03</span>
+                                <h1 className='  text-gray-600 text-sm'>Finalisez votre commande et détendez-vous</h1>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <p className=' text-center text-sm text-gray-600'>Nous préparons, nous livrons, vous régalez !
+                    📞 Commandes express au +229 0 151 931 010</p>
+
+                </section>
+            </div>
+
             {/* zone a propos de nous  */}
             <div className='px-8 md:px-24 py-2 relative '>
                 {/* A Propos  */}
                 <section className='py-6 flex flex-col gap-3'>
-                    <h1 className=' text-2xl text-center font-bold'> <span className=''>👨‍🍳</span> À propos de nouss</h1>
+                    <h1 className=' text-2xl text-center font-bold px-4  mx-auto py-2 bg-green-100 rounded-full'> <span className=''>👨‍🍳</span> À propos de nous</h1>
                     <div className=' flex flex-wrap w-full justify-center mx-auto gap-3 md:gap-3 '>
                         <div className=' md:absolute md:opacity-45 '>
                             <img className=' w-42  text-center' src={chefcusinier} alt={chefcusinier} />
                         </div>
                         <div className=' text-center w-full md:max-w-5xl flex flex-col gap-2.5'>
                             <h1 className=' text-green-600 font-bold'>Notre Histoire</h1>
-                            <p className=' text-justify'>Nés de la passion pour la bonne cuisine, nous avons voulu offrir à chacun la possibilité de savourer des plats savoureux et authentiques, préparés avec amour et simplicité.</p>
-                            <p className=' text-justify'>Tout a commencé avec une envie simple : partager la vraie bonne bouffe, celle qui réchauffe le cœur et rassemble autour de la table.
+                            <p className=' text-justify text-sm'>Nés de la passion pour la bonne cuisine, nous avons voulu offrir à chacun la possibilité de savourer des plats savoureux et authentiques, préparés avec amour et simplicité.</p>
+                            <p className=' text-justify text-sm'>Tout a commencé avec une envie simple : partager la vraie bonne bouffe, celle qui réchauffe le cœur et rassemble autour de la table.
                             Inspirés par les traditions italiennes, les repas familiaux et les recettes maison transmises de génération en génération, nous avons décidé de créer la <span>Bonne<strong className=' text-green-600'>BOUFFE</strong></span> : un endroit où qualité, générosité et plaisir se rencontrent.</p>
-                            <p className=' text-justify'>Aujourd'hui, grâce à la livraison rapide et soignée, nous avons fait tomber les murs de la cuisine pour apporter directement chez vous un moment de bonheur, de partage et de gourmandise.</p>
-                            <p className=' text-justify'>Notre promesse :
+                            <p className=' text-justify text-sm'>Aujourd'hui, grâce à la livraison rapide et soignée, nous avons fait tomber les murs de la cuisine pour apporter directement chez vous un moment de bonheur, de partage et de gourmandise.</p>
+                            <p className=' text-justify text-sm'>Notre promesse :
                             Vous faire sentir à chaque bouchée que la bonne bouffe peut être simple, vraie, et accessible à tous.</p>
 
                         </div>
-
-
                     </div>
                 </section>
             </div>
+
+            
         </div>
     );
 }

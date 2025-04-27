@@ -95,7 +95,7 @@ export const Base = () => {
                 <section className='py-6  flex flex-col  gap-3  rounded-lg md:bg-gray-50'>
                     <h1 className=' text-2xl text-center font-bold px-4  mx-auto py-2 bg-green-100 rounded-full'> <span className=''>🧂</span> Nos Ingrédients</h1>
                     <div className=' flex flex-wrap gap-1 md:gap-3 mx-auto'>
-                        <div className=' min-h-52 max-h-52  min-w-52 max-w-52  bg-green-50 h-18 rounded-full md:min-h-52 md:max-h-52  md:min-w-52 md:max-w-52 flex flex-col gap-3 px-4 py-4'>
+                        <div className=' min-h-72 max-h-72  min-w-72 max-w-72  bg-green-50 h-18 rounded-full md:min-h-52 md:max-h-52  md:min-w-52 md:max-w-52 flex flex-col gap-3 px-4 py-4'>
                             <div className=' size-32 mx-auto rounded-full bg-white overflow-hidden'>
                                 <img className='object-contain mx-auto ' src={tomate} alt={tomate} />
                             </div>
